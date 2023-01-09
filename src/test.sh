@@ -28,3 +28,5 @@ export BAD_SECRETS_tok=9e64c3b8-01f7-7a64-1575-30a91f7d1ae
 
 echo "random-token (same as config/connection.json)"
 export BAD_SECRETS_tok=92a90d01-02fc-212c-5e1f-8dccebad3f2
+
+env | grep BAD_SECRET
