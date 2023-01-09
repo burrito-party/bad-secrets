@@ -1,0 +1,33 @@
+{
+  "fake-aws": {
+    "iidd": "AKIARQAYVYDDEKVOUJVD",
+    "kkeeyy": "rUcJ2Hpx7o3NTR/BbwAsZRgyp+xJc1l/vVGKxAmH"
+  },
+  "fake-aws-bad-format": {
+    "iidd": "ASIAJLZVMHOHEJCWLWSA",
+    "kkeeyy": "UeoUrWczFIplmndVsjDfxadUqkUZnTPxOlqmdJKG"
+  },
+  "fake-slack": {
+    "loc": "https://hooks.slack.com/services/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"
+  },
+  "fake-slack-bad-format": {
+    "doc": "https://api.slack.com/messaging/webhooks",
+    "url": "https://hooks.slack.com/services/A03CHKTRC/WHNNYJFE2/zuUB1jDqSfkM3831vnr1glyM"
+  },
+  "fake-slack-broken": {
+    "base": "https://hooks.slack.com/services",
+    "team": "T03AHKTRA",
+    "service": "BHNNYJFE2",
+    "auth": "WuUBjDqSfkM3831vnr1glOyM"
+  },
+  "random-jwt": {
+    "doc": "https://jwt.io/",
+    "key": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4gRG9lIiwiaWF0IjoxNTE2MjM5MDIyfQ.SflKxwRJSMeKKF2QT4fwpMeJf36POk6yJV_adQssw5c"
+  },
+  "hashicorp-token": {
+    "tok": "9e64c3b8-01f7-7a64-1575-30a91f7d1ae4"
+  },
+  "random-token": {
+    "tok": "92a90d01-02fc-212c-5e1f-8dccebad3f2e"
+  }
+}
