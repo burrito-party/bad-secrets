@@ -2,6 +2,13 @@
 
 Repository with potential secrets here and there. The repository could be used to test different tools to scan different types of potential secrets.
 
+## Vectors
+
+- Language
+- Format
+- File Type
+- Hidden Commit
+
 ## Tools
 
 ### GitHub Enterprise Security Secret Scanning
