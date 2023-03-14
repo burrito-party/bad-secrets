@@ -2,16 +2,16 @@ echo "fake-aws (new for this file)"
 export BAD_SECRETS_iidd=AKIAQQAYVYDDEKVOUJVD
 export BAD_SECRETS_kkeeyy=rUcJ2Hpx7o3NTR/BbwAsZRgyp+xJc1l/vVGKxAm
 
-echo "fake-aws-bad-format (new for this file)"
-export BAD_SECRETS_iidd=ASIAJJZVMHOHEJCWLWSA
-export BAD_SECRETS_kkeeyy=UeoUrWczFIplmndVsjDfxadUqkUZnTPxOlqmdJK
+echo "fake-aws-bad-format (new for this file + with single quote)"
+export BAD_SECRETS_iidd= 'ASIAJJZVMHOHEJCWLWSA'
+export BAD_SECRETS_kkeeyy= UeoUrWczFIplmndVsjDfxadUqkUZnTPxOlqmdJK
 
 echo "fake-slack (new for this file)"
 export BAD_SECRETS_loc=https://hooks.slack.com/services/T02CHKTRB/BHNMYJFE2/UuUBjDqSfkM3831vnr1glOy
 
-echo "fake-slack-bad-format (same as config/connection.json)"
-export BAD_SECRETS_doc=https://api.slack.com/messaging/webhooks
-export BAD_SECRETS_url=https://hooks.slack.com/services/A03CHKTRC/WHNNYJFE2/zuUB1jDqSfkM3831vnr1gly
+echo "fake-slack-bad-format (same as config/connection.json + with single quote)"
+export BAD_SECRETS_doc='https://api.slack.com/messaging/webhooks'
+export BAD_SECRETS_url='https://hooks.slack.com/services/A03CHKTRC/WHNNYJFE2/zuUB1jDqSfkM3831vnr1gly'
 
 echo "fake-slack-broken (same as config/connection.json)"
 export BAD_SECRETS_base=https://hooks.slack.com/services
