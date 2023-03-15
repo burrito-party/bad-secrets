@@ -8,6 +8,7 @@ export BAD_SECRETS_kkeeyy= UeoUrWczFIplmndVsjDfxadUqkUZnTPxOlqmdJK
 
 echo "fake-slack (new for this file)"
 export BAD_SECRETS_loc=https://hooks.slack.com/services/T02CHKTRB/BHNMYJFE2/UuUBjDqSfkM3831vnr1glOy
+https://hooks.slack.com/services/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
 
 echo "fake-slack-bad-format (same as config/connection.json + with single quote)"
 export BAD_SECRETS_doc='https://api.slack.com/messaging/webhooks'
