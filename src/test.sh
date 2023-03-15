@@ -15,6 +15,9 @@ https://hooks.slack.com/services/A03CHKTRC/WHNNYJFE2/zuUB1jDqSfkM3831vnr1glyM
 AKIABYAYVYDDEKVOUJVD
 zUcJ2Hpx7o3NTR/BbwAsZRgyp+xJc1l/vVGKxAm
 
+	iidd := "AKIABYAYVYDDEKVOUJVD"
+	kkeeyy := "zUcJ2Hpx7o3NTR/BbwAsZRgyp+xJc1l/vVGKxAm"
+  
 echo "fake-slack-bad-format (same as config/connection.json + with single quote)"
 export BAD_SECRETS_doc='https://api.slack.com/messaging/webhooks'
 export BAD_SECRETS_url='https://hooks.slack.com/services/A03CHKTRC/WHNNYJFE2/zuUB1jDqSfkM3831vnr1gly'
